@@ -5,7 +5,7 @@ File Name:
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div {
+body, header, nav, main, footer, h1, div, section article, aside {
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,7 +15,21 @@ body, header, nav, main, footer, h1, div {
 body {
 	background-color: #c8dbE3;
 }
-
+section { 
+    background-color: #183440;
+    color: #fff;
+    margin-top: 4%;
+    padding: 2%   
+}
+aside {
+    background-color:(#rgba(24, 52, 64, 0.3));
+    color: #fff;
+    margin-top: 1%;
+    color: #183440;
+    padding: 2%;
+    box-shadow: (4px 4px 10px #183440)    
+}
+    
 /* Style rules for mobile viewport */
 
 /* Style rule for header */
